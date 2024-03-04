@@ -1,12 +1,13 @@
+import './styles.css';
 export default function Header(){
 
     return(
-        <head>
-            <div>
+        <header>
+            <div className='container'>
                 <h1>MeuSite</h1>
             </div>
         
-        </head>
+        </header>
 
 
     );
