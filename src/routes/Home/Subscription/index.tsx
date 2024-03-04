@@ -9,13 +9,13 @@ export default function Promotion(){
             <section>
                 <div className="container ">
                     <div className="mt30 mb30">
-                        <Card title="Página de promoção" />
-                    </div>        
-                    <div className="dflex">
-                        <Link to="/sub">
-                             <Button text="Quero participar" />
-                        </Link>
-                    </div>              
+                        <Card title="Página de inscrição" />
+                    </div>
+                       <div className="dflex">
+                        <Link to="/promotion">
+                            <Button text="Ver promoção" />
+                        </Link>  
+                       </div>  
                 </div>
             </section>
         </main>
